@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wrapper {
+    width: 1340px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header {
+    width: 1340px;
+    height: 200px;
+    overflow: hidden;
+}
+#header img{
+    width: 100px;
+    height: 100px;
+}
+#header h1{
+    text-align: center;
+    font-size: xx-large;
+    color: darkolivegreen;
+}
+#header li{
+    float: left;
+    padding: 8px 20px;
+    margin-bottom: 15px;
+}
+#header li a{
+    color: darkolivegreen;
+    text-decoration: none;
+}
+#artikel{
+    width: 700px;
+    height: 1000px;
+    float: left;
+}
+#artikel h2{
+    color: darkolivegreen;
+    font-size: x-large;
+    text-align: center;
+}
+#artikel p{
+    color: darkolivegreen;
+    font-size: larger;
+    text-align: center;
+}
+#artikel video{
+    width: 700px;
+    height: 1000px;
+    float: left;
+    margin-top: 30px;
+}
+#list-filter{
+    width: 550px;
+    height: 1000px;
+    float: right;
+    background-color: black;
+}
+#list-filter h2{
+    color: white;
+    font-size: larger;
+    text-align: center;
+
+}
+.filter{
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-top: 30px;
+    background-color: darkolivegreen;
+    margin-right: 80px;
+}
+.filter h3{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.filter video{
+    width: 250px;
+    height: 158px;
+    background-color: black;
+    margin-left: 75px;
+}
+#barbottom{
+    width: 1340px;
+    height: 195px;  
+    margin-top: 50px; 
+    float: right; 
+    
+}
+#barbottom video{
+    width: 1340px;
+    height: 145px;
+    margin-top: 50px;
+}
+#footer {
+    clear: both;
+    text-align: center;
+    background-color: darkolivegreen;
+    margin: 20px 0;
+    padding: 5px;
+    margin-top: 1200px;
+    color: white;
+}
